@@ -1,0 +1,2 @@
+class ConversationDecorator < ApplicationDecorator
+end

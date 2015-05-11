@@ -5,6 +5,10 @@ AllCops:
     - '**/Rakefile'
   Exclude:
    - 'bin/*'
-   - 'db/seeds.rb'
+   - 'db/**/**'
    - 'db/schema.rb'
    - 'vendor/bundle/**/*'
+Documentation:
+  Enabled: false
+LineLength:
+  Max: 120
